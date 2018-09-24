@@ -8,4 +8,8 @@ class Add_test < Minitest::Test
   def test_2_f
     assert_equal(5, addition(7, 5))
   end
+  def test_3_p
+    assert_equal(4, addition(2, 2))
+  end
+  
 end
